@@ -1,8 +1,8 @@
 {
-  "name": "vben-admin",
+  "name": "carve-admin",
   "version": "2.6.1",
   "author": {
-    "name": "vben",
+    "name": "carve",
     "email": "anncwb@126.com",
     "url": "https://github.com/anncwb"
   },
@@ -143,13 +143,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anncwb/vue-vben-admin.git"
+    "url": "git+https://github.com/anncwb/vue-carve-admin.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anncwb/vue-vben-admin/issues"
+    "url": "https://github.com/anncwb/vue-carve-admin/issues"
   },
-  "homepage": "https://github.com/anncwb/vue-vben-admin",
+  "homepage": "https://github.com/anncwb/vue-carve-admin",
   "engines": {
     "node": "^12 || >=14"
   }

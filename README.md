@@ -1,15 +1,15 @@
-<div align="center"> <a href="https://github.com/anncwb/vue-vben-admin"> <img alt="VbenAdmin Logo" width="200" height="200" src="https://anncwb.github.io/anncwb/images/logo.png"> </a> <br> <br>
+<div align="center"> <a href="https://github.com/anncwb/vue-carve-admin"> <img alt="carveAdmin Logo" width="200" height="200" src="https://anncwb.github.io/anncwb/images/logo.png"> </a> <br> <br>
 
-[![license](https://img.shields.io/github/license/anncwb/vue-vben-admin.svg)](LICENSE)
+[![license](https://img.shields.io/github/license/anncwb/vue-carve-admin.svg)](LICENSE)
 
-<h1>Vue vben admin</h1>
+<h1>Vue carve admin</h1>
 </div>
 
 **English** | [中文](./README.zh-CN.md)
 
 ## Introduction
 
-Vue Vben Admin is a free and open source middle and back-end template. Using the latest `vue3`, `vite2`, `TypeScript` and other mainstream technology development, the out-of-the-box middle and back-end front-end solutions can also be used for learning reference.
+Vue carve Admin is a free and open source middle and back-end template. Using the latest `vue3`, `vite2`, `TypeScript` and other mainstream technology development, the out-of-the-box middle and back-end front-end solutions can also be used for learning reference.
 
 ## Feature
 
@@ -23,24 +23,24 @@ Vue Vben Admin is a free and open source middle and back-end template. Using the
 
 ## 预览
 
-- [vue-vben-admin](https://vvbin.cn/next/) - Full version Chinese site
-- [vue-vben-admin-gh-pages](https://anncwb.github.io/vue-vben-admin/) - Full version of the github site
-- [vben-admin-thin-next](https://vvbin.cn/thin/next/) - Simplified Chinese site
-- [vben-admin-thin-gh-pages](https://anncwb.github.io/vben-admin-thin-next/) -Simplified github site
+- [vue-carve-admin](https://vvbin.cn/next/) - Full version Chinese site
+- [vue-carve-admin-gh-pages](https://anncwb.github.io/vue-carve-admin/) - Full version of the github site
+- [carve-admin-thin-next](https://vvbin.cn/thin/next/) - Simplified Chinese site
+- [carve-admin-thin-gh-pages](https://anncwb.github.io/carve-admin-thin-next/) -Simplified github site
 
-Test account: vben/123456
+Test account: carve/123456
 
 <p align="center">
-    <img alt="VbenAdmin Logo" width="100%" src="https://anncwb.github.io/anncwb/images/preview1.png">
-    <img alt="VbenAdmin Logo" width="100%" src="https://anncwb.github.io/anncwb/images/preview2.png">
-    <img alt="VbenAdmin Logo" width="100%" src="https://anncwb.github.io/anncwb/images/preview3.png">
+    <img alt="carveAdmin Logo" width="100%" src="https://anncwb.github.io/anncwb/images/preview1.png">
+    <img alt="carveAdmin Logo" width="100%" src="https://anncwb.github.io/anncwb/images/preview2.png">
+    <img alt="carveAdmin Logo" width="100%" src="https://anncwb.github.io/anncwb/images/preview3.png">
 </p>
 
 ### Use Gitpod
 
 Open the project in Gitpod (free online dev environment for GitHub) and start coding immediately.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/anncwb/vue-vben-admin)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/anncwb/vue-carve-admin)
 
 ## Documentation
 
@@ -62,13 +62,13 @@ Open the project in Gitpod (free online dev environment for GitHub) and start co
 - Get the project code
 
 ```bash
-git clone https://github.com/anncwb/vue-vben-admin.git
+git clone https://github.com/anncwb/vue-carve-admin.git
 ```
 
 - Installation dependencies
 
 ```bash
-cd vue-vben-admin
+cd vue-carve-admin
 
 yarn install
 
@@ -92,12 +92,12 @@ yarn build
 
 ## Project
 
-- [vue-vben-admin](https://github.com/anncwb/vue-vben-admin) - full version
-- [vue-vben-admin-thin-next](https://github.com/anncwb/vben-admin-thin-next) - Simplified version
+- [vue-carve-admin](https://github.com/anncwb/vue-carve-admin) - full version
+- [vue-carve-admin-thin-next](https://github.com/anncwb/carve-admin-thin-next) - Simplified version
 
 ## How to contribute
 
-You are very welcome to join！[Raise an issue](https://github.com/anncwb/vue-vben-admin/issues/new/choose) Or submit a Pull Request。
+You are very welcome to join！[Raise an issue](https://github.com/anncwb/vue-carve-admin/issues/new/choose) Or submit a Pull Request。
 
 **Pull Request:**
 
@@ -149,7 +149,7 @@ Support modern browsers, not IE
 
 ## Maintainer
 
-[@Vben](https://github.com/anncwb)
+[@carve](https://github.com/anncwb)
 
 ## Donate
 
@@ -157,13 +157,13 @@ If you think this project is helpful to you, you can help the author buy a cup o
 
 ![donate](https://anncwb.github.io/anncwb/images/sponsor.png)
 
-<a style="display: block;width: 100px;height: 50px;line-height: 50px; color: #fff;text-align: center; background: #408aed;border-radius: 4px;" href="https://www.paypal.com/paypalme/cvvben">Paypal Me</a>
+<a style="display: block;width: 100px;height: 50px;line-height: 50px; color: #fff;text-align: center; background: #408aed;border-radius: 4px;" href="https://www.paypal.com/paypalme/cvcarve">Paypal Me</a>
 
 ## Discord
 
-- [github discussions](https://github.com/anncwb/vue-vben-admin/discussions)
+- [github discussions](https://github.com/anncwb/vue-carve-admin/discussions)
 - [Discord](https://discord.gg/8GuAdwDhj6)
 
 ## License
 
-[MIT © Vben-2020](./LICENSE)
+[MIT © carve-2020](./LICENSE)
