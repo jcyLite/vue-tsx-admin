@@ -35,12 +35,12 @@
   import { defineComponent, computed } from 'vue';
 
   import { Dropdown, Menu, Input } from 'ant-design-vue';
-  import { Icon } from '/@/components/Icon';
-  import { BasicTitle } from '/@/components/Basic';
+  import { Icon } from '@/components/Icon';
+  import { BasicTitle } from '@/components/Basic';
 
-  import { propTypes } from '/@/utils/propTypes';
+  import { propTypes } from '@/utils/propTypes';
 
-  import { useI18n } from '/@/hooks/web/useI18n';
+  import { useI18n } from '@/hooks/web/useI18n';
   import { useDebounceFn } from '@vueuse/core';
 
   enum ToolbarEnum {

@@ -1,4 +1,4 @@
-import { isFunction } from '/@/utils/is';
+import { isFunction } from '@/utils/is';
 import type { BasicTableProps, TableRowSelection } from '../types/table';
 import { computed, ref, unref, ComputedRef, Ref, toRaw, watch, nextTick } from 'vue';
 import { ROW_KEY } from '../const';

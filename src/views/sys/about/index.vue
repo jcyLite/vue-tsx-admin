@@ -18,10 +18,10 @@
   import { defineComponent, h } from 'vue';
 
   import { Tag } from 'ant-design-vue';
-  import { PageWrapper } from '/@/components/Page';
-  import { Description, DescItem, useDescription } from '/@/components/Description/index';
+  import { PageWrapper } from '@/components/Page';
+  import { Description, DescItem, useDescription } from '@/components/Description/index';
 
-  import { GITHUB_URL, SITE_URL, DOC_URL } from '/@/settings/siteSetting';
+  import { GITHUB_URL, SITE_URL, DOC_URL } from '@/settings/siteSetting';
   export default defineComponent({
     name: 'AboutPage',
     components: { Description, PageWrapper },

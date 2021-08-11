@@ -18,13 +18,13 @@
   </Dropdown>
 </template>
 <script lang="ts">
-  import type { LocaleType } from '/#/config';
-  import type { DropMenu } from '/@/components/Dropdown';
+  import type { LocaleType } from '#/config';
+  import type { DropMenu } from '@/components/Dropdown';
   import { defineComponent, ref, watchEffect, unref, computed } from 'vue';
-  import { Dropdown } from '/@/components/Dropdown';
-  import { Icon } from '/@/components/Icon';
-  import { useLocale } from '/@/locales/useLocale';
-  import { localeList } from '/@/settings/localeSetting';
+  import { Dropdown } from '@/components/Dropdown';
+  import { Icon } from '@/components/Icon';
+  import { useLocale } from '@/locales/useLocale';
+  import { localeList } from '@/settings/localeSetting';
 
   const props = {
     /**

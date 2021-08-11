@@ -42,16 +42,16 @@
   import { FormOutlined, CloseOutlined, CheckOutlined } from '@ant-design/icons-vue';
   import { CellComponent } from './CellComponent';
 
-  import { useDesign } from '/@/hooks/web/useDesign';
+  import { useDesign } from '@/hooks/web/useDesign';
   import { useTableContext } from '../../hooks/useTableContext';
 
-  import clickOutside from '/@/directives/clickOutside';
+  import clickOutside from '@/directives/clickOutside';
 
-  import { propTypes } from '/@/utils/propTypes';
-  import { isString, isBoolean, isFunction, isNumber, isArray } from '/@/utils/is';
+  import { propTypes } from '@/utils/propTypes';
+  import { isString, isBoolean, isFunction, isNumber, isArray } from '@/utils/is';
   import { createPlaceholderMessage } from './helper';
   import { set, omit } from 'lodash-es';
-  import { treeToList } from '/@/utils/helper/treeHelper';
+  import { treeToList } from '@/utils/helper/treeHelper';
 
   export default defineComponent({
     name: 'EditableCell',

@@ -1,9 +1,9 @@
-import type { Menu } from '/@/router/types';
+import type { Menu } from '@/router/types';
 import type { PropType } from 'vue';
 
-import { MenuModeEnum, MenuTypeEnum } from '/@/enums/menuEnum';
-import { ThemeEnum } from '/@/enums/appEnum';
-import { propTypes } from '/@/utils/propTypes';
+import { MenuModeEnum, MenuTypeEnum } from '@/enums/menuEnum';
+import { ThemeEnum } from '@/enums/appEnum';
+import { propTypes } from '@/utils/propTypes';
 export const basicProps = {
   items: {
     type: Array as PropType<Menu[]>,

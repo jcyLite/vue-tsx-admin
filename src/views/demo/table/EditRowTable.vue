@@ -16,11 +16,11 @@
     BasicColumn,
     ActionItem,
     EditRecordRow,
-  } from '/@/components/Table';
-  import { optionsListApi } from '/@/api/demo/select';
+  } from '@/components/Table';
+  import { optionsListApi } from '@/api/demo/select';
 
-  import { demoListApi } from '/@/api/demo/table';
-  import { treeOptionsListApi } from '/@/api/demo/tree';
+  import { demoListApi } from '@/api/demo/table';
+  import { treeOptionsListApi } from '@/api/demo/tree';
 
   const columns: BasicColumn[] = [
     {

@@ -1,10 +1,10 @@
 import { watch, unref } from 'vue';
-import { useI18n } from '/@/hooks/web/useI18n';
+import { useI18n } from '@/hooks/web/useI18n';
 import { useTitle as usePageTitle } from '@vueuse/core';
-import { useGlobSetting } from '/@/hooks/setting';
+import { useGlobSetting } from '@/hooks/setting';
 import { useRouter } from 'vue-router';
 
-import { REDIRECT_NAME } from '/@/router/constant';
+import { REDIRECT_NAME } from '@/router/constant';
 
 export function useTitle() {
   const { title } = useGlobSetting();

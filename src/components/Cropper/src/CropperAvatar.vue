@@ -40,12 +40,12 @@
     PropType,
   } from 'vue';
   import CopperModal from './CopperModal.vue';
-  import { useDesign } from '/@/hooks/web/useDesign';
-  import { useModal } from '/@/components/Modal';
-  import { useMessage } from '/@/hooks/web/useMessage';
-  import { useI18n } from '/@/hooks/web/useI18n';
-  import type { ButtonProps } from '/@/components/Button';
-  import Icon from '/@/components/Icon';
+  import { useDesign } from '@/hooks/web/useDesign';
+  import { useModal } from '@/components/Modal';
+  import { useMessage } from '@/hooks/web/useMessage';
+  import { useI18n } from '@/hooks/web/useI18n';
+  import type { ButtonProps } from '@/components/Button';
+  import Icon from '@/components/Icon';
 
   const props = {
     width: { type: [String, Number], default: '200px' },

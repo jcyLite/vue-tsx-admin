@@ -8,9 +8,9 @@ import type {
   TableCustomRecord,
   TableRowSelection,
 } from './types/table';
-import type { FormProps } from '/@/components/Form';
+import type { FormProps } from '@/components/Form';
 import { DEFAULT_FILTER_FN, DEFAULT_SORT_FN, FETCH_SETTING } from './const';
-import { propTypes } from '/@/utils/propTypes';
+import { propTypes } from '@/utils/propTypes';
 
 export const basicProps = {
   clickToRowSelect: propTypes.bool.def(true),

@@ -13,9 +13,9 @@
 </template>
 <script lang="ts">
   import { defineComponent, ref } from 'vue';
-  import { CollapseContainer } from '/@/components/Container/index';
-  import { useWatermark } from '/@/hooks/web/useWatermark';
-  import { PageWrapper } from '/@/components/Page';
+  import { CollapseContainer } from '@/components/Container/index';
+  import { useWatermark } from '@/hooks/web/useWatermark';
+  import { PageWrapper } from '@/components/Page';
 
   export default defineComponent({
     components: { CollapseContainer, PageWrapper },

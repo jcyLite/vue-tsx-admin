@@ -39,14 +39,14 @@
 </template>
 <script lang="ts">
   import { computed, defineComponent, unref, ref } from 'vue';
-  import { BasicForm, FormSchema, ApiSelect } from '/@/components/Form/index';
-  import { CollapseContainer } from '/@/components/Container';
-  import { useMessage } from '/@/hooks/web/useMessage';
-  import { PageWrapper } from '/@/components/Page';
+  import { BasicForm, FormSchema, ApiSelect } from '@/components/Form/index';
+  import { CollapseContainer } from '@/components/Container';
+  import { useMessage } from '@/hooks/web/useMessage';
+  import { PageWrapper } from '@/components/Page';
 
-  import { optionsListApi } from '/@/api/demo/select';
+  import { optionsListApi } from '@/api/demo/select';
   import { useDebounceFn } from '@vueuse/core';
-  import { treeOptionsListApi } from '/@/api/demo/tree';
+  import { treeOptionsListApi } from '@/api/demo/tree';
 
   const provincesOptions = [
     {

@@ -13,8 +13,8 @@
 <script lang="ts">
   import { defineComponent } from 'vue';
   import AppSearchKeyItem from './AppSearchKeyItem.vue';
-  import { useDesign } from '/@/hooks/web/useDesign';
-  import { useI18n } from '/@/hooks/web/useI18n';
+  import { useDesign } from '@/hooks/web/useDesign';
+  import { useI18n } from '@/hooks/web/useI18n';
   export default defineComponent({
     name: 'AppSearchFooter',
     components: { AppSearchKeyItem },

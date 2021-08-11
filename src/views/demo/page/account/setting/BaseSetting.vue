@@ -24,17 +24,17 @@
 <script lang="ts">
   import { Button, Row, Col } from 'ant-design-vue';
   import { computed, defineComponent, onMounted } from 'vue';
-  import { BasicForm, useForm } from '/@/components/Form/index';
-  import { CollapseContainer } from '/@/components/Container';
-  import { CropperAvatar } from '/@/components/Cropper';
+  import { BasicForm, useForm } from '@/components/Form/index';
+  import { CollapseContainer } from '@/components/Container';
+  import { CropperAvatar } from '@/components/Cropper';
 
-  import { useMessage } from '/@/hooks/web/useMessage';
+  import { useMessage } from '@/hooks/web/useMessage';
 
-  import headerImg from '/@/assets/images/header.jpg';
-  import { accountInfoApi } from '/@/api/demo/account';
+  import headerImg from '@/assets/images/header.jpg';
+  import { accountInfoApi } from '@/api/demo/account';
   import { baseSetschemas } from './data';
-  import { useUserStore } from '/@/store/modules/user';
-  import { uploadApi } from '/@/api/sys/upload';
+  import { useUserStore } from '@/store/modules/user';
+  import { uploadApi } from '@/api/sys/upload';
 
   export default defineComponent({
     components: {

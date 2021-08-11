@@ -41,9 +41,9 @@
 
   import { defineComponent } from 'vue';
   import { Dropdown, Menu, Popconfirm } from 'ant-design-vue';
-  import { Icon } from '/@/components/Icon';
+  import { Icon } from '@/components/Icon';
   import { omit } from 'lodash-es';
-  import { isFunction } from '/@/utils/is';
+  import { isFunction } from '@/utils/is';
 
   export default defineComponent({
     name: 'BasicDropdown',

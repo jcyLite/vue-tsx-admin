@@ -15,8 +15,8 @@
 </template>
 <script lang="ts">
   import { defineComponent, ref } from 'vue';
-  import { CodeEditor } from '/@/components/CodeEditor';
-  import { PageWrapper } from '/@/components/Page';
+  import { CodeEditor } from '@/components/CodeEditor';
+  import { PageWrapper } from '@/components/Page';
   import { Radio, Space, Modal } from 'ant-design-vue';
 
   const jsonData =

@@ -6,8 +6,8 @@
 </template>
 <script lang="ts">
   import { defineComponent } from 'vue';
-  import { createImgPreview, ImagePreview } from '/@/components/Preview/index';
-  import { PageWrapper } from '/@/components/Page';
+  import { createImgPreview, ImagePreview } from '@/components/Preview/index';
+  import { PageWrapper } from '@/components/Page';
 
   const imgList: string[] = [
     'https://picsum.photos/id/66/346/216',

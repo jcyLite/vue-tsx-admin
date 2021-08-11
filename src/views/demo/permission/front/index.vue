@@ -29,10 +29,10 @@
   import { computed, defineComponent } from 'vue';
   import { Alert } from 'ant-design-vue';
   import CurrentPermissionMode from '../CurrentPermissionMode.vue';
-  import { useUserStore } from '/@/store/modules/user';
-  import { RoleEnum } from '/@/enums/roleEnum';
-  import { usePermission } from '/@/hooks/web/usePermission';
-  import { PageWrapper } from '/@/components/Page';
+  import { useUserStore } from '@/store/modules/user';
+  import { RoleEnum } from '@/enums/roleEnum';
+  import { usePermission } from '@/hooks/web/usePermission';
+  import { PageWrapper } from '@/components/Page';
 
   export default defineComponent({
     components: { Alert, CurrentPermissionMode, PageWrapper },

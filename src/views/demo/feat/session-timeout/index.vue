@@ -8,10 +8,10 @@
 </template>
 <script lang="ts">
   import { defineComponent } from 'vue';
-  import { PageWrapper } from '/@/components/Page';
-  import { useUserStore } from '/@/store/modules/user';
+  import { PageWrapper } from '@/components/Page';
+  import { useUserStore } from '@/store/modules/user';
 
-  import { sessionTimeoutApi } from '/@/api/demo/account';
+  import { sessionTimeoutApi } from '@/api/demo/account';
 
   export default defineComponent({
     name: 'TestSessionTimeout',

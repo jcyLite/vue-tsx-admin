@@ -11,7 +11,7 @@
 <script lang="ts">
   import { defineComponent, computed } from 'vue';
   import CodeMirrorEditor from './codemirror/CodeMirror.vue';
-  import { isString } from '/@/utils/is';
+  import { isString } from '@/utils/is';
 
   const MODE = {
     JSON: 'application/json',

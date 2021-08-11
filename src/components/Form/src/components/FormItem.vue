@@ -3,17 +3,17 @@
   import type { FormActionType, FormProps } from '../types/form';
   import type { FormSchema } from '../types/form';
   import type { ValidationRule } from 'ant-design-vue/lib/form/Form';
-  import type { TableActionType } from '/@/components/Table';
+  import type { TableActionType } from '@/components/Table';
   import { defineComponent, computed, unref, toRefs } from 'vue';
   import { Form, Col } from 'ant-design-vue';
   import { componentMap } from '../componentMap';
-  import { BasicHelp } from '/@/components/Basic';
-  import { isBoolean, isFunction, isNull } from '/@/utils/is';
-  import { getSlot } from '/@/utils/helper/tsxHelper';
+  import { BasicHelp } from '@/components/Basic';
+  import { isBoolean, isFunction, isNull } from '@/utils/is';
+  import { getSlot } from '@/utils/helper/tsxHelper';
   import { createPlaceholderMessage, setComponentRuleType } from '../helper';
   import { upperFirst, cloneDeep } from 'lodash-es';
   import { useItemLabelWidth } from '../hooks/useLabelWidth';
-  import { useI18n } from '/@/hooks/web/useI18n';
+  import { useI18n } from '@/hooks/web/useI18n';
 
   export default defineComponent({
     name: 'BasicFormItem',

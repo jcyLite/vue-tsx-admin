@@ -10,12 +10,12 @@
   import { defineComponent, ref, unref, onMounted, nextTick, computed } from 'vue';
   import { Spin } from 'ant-design-vue';
 
-  import { getViewportOffset } from '/@/utils/domUtils';
+  import { getViewportOffset } from '@/utils/domUtils';
 
-  import { useWindowSizeFn } from '/@/hooks/event/useWindowSizeFn';
+  import { useWindowSizeFn } from '@/hooks/event/useWindowSizeFn';
 
-  import { propTypes } from '/@/utils/propTypes';
-  import { useDesign } from '/@/hooks/web/useDesign';
+  import { propTypes } from '@/utils/propTypes';
+  import { useDesign } from '@/hooks/web/useDesign';
 
   export default defineComponent({
     name: 'IFrame',

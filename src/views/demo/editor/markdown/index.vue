@@ -12,8 +12,8 @@
 </template>
 <script lang="ts">
   import { defineComponent, ref, unref } from 'vue';
-  import { MarkDown, MarkDownActionType } from '/@/components/Markdown';
-  import { PageWrapper } from '/@/components/Page';
+  import { MarkDown, MarkDownActionType } from '@/components/Markdown';
+  import { PageWrapper } from '@/components/Page';
 
   export default defineComponent({
     components: { MarkDown, PageWrapper },

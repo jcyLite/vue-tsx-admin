@@ -20,10 +20,10 @@
 </template>
 <script lang="ts">
   import { defineComponent } from 'vue';
-  import { BasicTable, ColumnChangeParam, useTable } from '/@/components/Table';
+  import { BasicTable, ColumnChangeParam, useTable } from '@/components/Table';
   import { getBasicColumns, getBasicShortColumns } from './tableData';
-  import { useMessage } from '/@/hooks/web/useMessage';
-  import { demoListApi } from '/@/api/demo/table';
+  import { useMessage } from '@/hooks/web/useMessage';
+  import { demoListApi } from '@/api/demo/table';
   export default defineComponent({
     components: { BasicTable },
     setup() {

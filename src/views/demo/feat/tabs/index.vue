@@ -20,11 +20,11 @@
 </template>
 <script lang="ts">
   import { defineComponent, ref } from 'vue';
-  import { CollapseContainer } from '/@/components/Container/index';
-  import { useTabs } from '/@/hooks/web/useTabs';
-  import { PageWrapper } from '/@/components/Page';
+  import { CollapseContainer } from '@/components/Container/index';
+  import { useTabs } from '@/hooks/web/useTabs';
+  import { PageWrapper } from '@/components/Page';
   import { Input, Alert } from 'ant-design-vue';
-  import { useMessage } from '/@/hooks/web/useMessage';
+  import { useMessage } from '@/hooks/web/useMessage';
 
   export default defineComponent({
     name: 'TabsDemo',

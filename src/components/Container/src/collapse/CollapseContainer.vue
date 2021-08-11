@@ -27,12 +27,12 @@
   import { defineComponent, ref } from 'vue';
   // component
   import { Skeleton } from 'ant-design-vue';
-  import { CollapseTransition } from '/@/components/Transition';
+  import { CollapseTransition } from '@/components/Transition';
   import CollapseHeader from './CollapseHeader.vue';
-  import { triggerWindowResize } from '/@/utils/event';
+  import { triggerWindowResize } from '@/utils/event';
   // hook
-  import { useTimeoutFn } from '/@/hooks/core/useTimeout';
-  import { useDesign } from '/@/hooks/web/useDesign';
+  import { useTimeoutFn } from '@/hooks/core/useTimeout';
+  import { useDesign } from '@/hooks/web/useDesign';
 
   const props = {
     title: { type: String, default: '' },

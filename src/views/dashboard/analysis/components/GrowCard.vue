@@ -29,8 +29,8 @@
 <script lang="ts">
   import { defineComponent } from 'vue';
 
-  import { CountTo } from '/@/components/CountTo/index';
-  import { Icon } from '/@/components/Icon';
+  import { CountTo } from '@/components/CountTo/index';
+  import { Icon } from '@/components/Icon';
   import { Tag, Card } from 'ant-design-vue';
 
   import { growCardList } from '../data';

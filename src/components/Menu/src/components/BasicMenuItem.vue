@@ -7,7 +7,7 @@
 <script lang="ts">
   import { defineComponent } from 'vue';
   import { Menu } from 'ant-design-vue';
-  import { useDesign } from '/@/hooks/web/useDesign';
+  import { useDesign } from '@/hooks/web/useDesign';
   import { itemProps } from '../props';
 
   import MenuItemContent from './MenuItemContent.vue';

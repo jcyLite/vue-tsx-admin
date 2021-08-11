@@ -23,10 +23,10 @@ import {
 import RadioButtonGroup from './components/RadioButtonGroup.vue';
 import ApiSelect from './components/ApiSelect.vue';
 import ApiTreeSelect from './components/ApiTreeSelect.vue';
-import { BasicUpload } from '/@/components/Upload';
-import { StrengthMeter } from '/@/components/StrengthMeter';
-import { IconPicker } from '/@/components/Icon';
-import { CountdownInput } from '/@/components/CountDown';
+import { BasicUpload } from '@/components/Upload';
+import { StrengthMeter } from '@/components/StrengthMeter';
+import { IconPicker } from '@/components/Icon';
+import { CountdownInput } from '@/components/CountDown';
 
 const componentMap = new Map<ComponentType, Component>();
 

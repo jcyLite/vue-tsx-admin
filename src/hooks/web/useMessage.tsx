@@ -5,7 +5,7 @@ import { InfoCircleFilled, CheckCircleFilled, CloseCircleFilled } from '@ant-des
 
 import { ArgsProps, ConfigProps } from 'ant-design-vue/lib/notification';
 import { useI18n } from './useI18n';
-import { isString } from '/@/utils/is';
+import { isString } from '@/utils/is';
 
 export interface NotifyApi {
   info(config: ArgsProps): void;

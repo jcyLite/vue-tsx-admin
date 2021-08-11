@@ -1,17 +1,17 @@
-import '/@/design/index.less';
-import '/@/design/tailwind.css';
+import '@/design/index.less';
+import '@/design/tailwind.css';
 // Register icon sprite
 import 'virtual:svg-icons-register';
 import App from './App.vue';
 import { createApp } from 'vue';
-import { initAppConfigStore } from '/@/logics/initAppConfig';
-import { setupErrorHandle } from '/@/logics/error-handle';
-import { router, setupRouter } from '/@/router';
-import { setupRouterGuard } from '/@/router/guard';
-import { setupStore } from '/@/store';
-import { setupGlobDirectives } from '/@/directives';
-import { setupI18n } from '/@/locales/setupI18n';
-import { registerGlobComp } from '/@/components/registerGlobComp';
+import { initAppConfigStore } from '@/logics/initAppConfig';
+import { setupErrorHandle } from '@/logics/error-handle';
+import { router, setupRouter } from '@/router';
+import { setupRouterGuard } from '@/router/guard';
+import { setupStore } from '@/store';
+import { setupGlobDirectives } from '@/directives';
+import { setupI18n } from '@/locales/setupI18n';
+import { registerGlobComp } from '@/components/registerGlobComp';
 
 // Do not introduce on-demand in local development?
 // In the local development for introduce on-demand, the number of browser requests will increase by about 20%.

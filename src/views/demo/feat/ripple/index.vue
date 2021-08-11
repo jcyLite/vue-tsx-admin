@@ -5,8 +5,8 @@
 </template>
 <script lang="ts">
   import { defineComponent } from 'vue';
-  import RippleDirective from '/@/directives/ripple';
-  import { PageWrapper } from '/@/components/Page';
+  import RippleDirective from '@/directives/ripple';
+  import { PageWrapper } from '@/components/Page';
 
   export default defineComponent({
     components: { PageWrapper },

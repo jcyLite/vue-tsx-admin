@@ -7,7 +7,7 @@
   import { defineComponent, computed } from 'vue';
   import LockPage from './LockPage.vue';
 
-  import { useLockStore } from '/@/store/modules/lock';
+  import { useLockStore } from '@/store/modules/lock';
   export default defineComponent({
     name: 'Lock',
     components: { LockPage },

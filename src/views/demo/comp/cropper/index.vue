@@ -33,12 +33,12 @@
 </template>
 <script lang="ts">
   import { defineComponent, ref } from 'vue';
-  import { PageWrapper } from '/@/components/Page';
-  import { CollapseContainer } from '/@/components/Container';
-  import { CropperImage, CropperAvatar } from '/@/components/Cropper';
-  import { uploadApi } from '/@/api/sys/upload';
-  import img from '/@/assets/images/header.jpg';
-  import { useUserStore } from '/@/store/modules/user';
+  import { PageWrapper } from '@/components/Page';
+  import { CollapseContainer } from '@/components/Container';
+  import { CropperImage, CropperAvatar } from '@/components/Cropper';
+  import { uploadApi } from '@/api/sys/upload';
+  import img from '@/assets/images/header.jpg';
+  import { useUserStore } from '@/store/modules/user';
 
   export default defineComponent({
     components: {

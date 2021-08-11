@@ -6,7 +6,7 @@
 <script lang="ts">
   import { defineComponent, computed, unref } from 'vue';
 
-  import { useI18n } from '/@/hooks/web/useI18n';
+  import { useI18n } from '@/hooks/web/useI18n';
   import { LoginStateEnum, useLoginState } from './useLogin';
 
   export default defineComponent({
