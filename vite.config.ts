@@ -91,7 +91,6 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
         },
       },
     },
-
     // The vite plugin used by the project. The quantity is large, so it is separately extracted and managed
     plugins: createVitePlugins(viteEnv, isBuild),
 

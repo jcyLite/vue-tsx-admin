@@ -35,7 +35,7 @@
     props: itemProps,
     setup(props) {
       const { prefixCls } = useDesign('basic-menu-item');
-
+      console.log(prefixCls)
       const getShowMenu = computed(() => !props.item.meta?.hideMenu);
       function menuHasChildren(menuTreeItem: MenuType): boolean {
         return (
